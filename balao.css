@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Tornando as caixas adaptaveis (caixas não ficam sobrando dentro dos elementos)*/
+    list-style: none;
+}
+
+header {
+    /*preenchimento superior e infoerior com (2rem), preenchimento laterais esqueda e direita*/
+    padding: 2rem 1rem;
+    background-color: rgb(4, 52, 134);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Fixando o Header*/
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
+
+}
+
+.hambuerger {
+    display: none;
+
+}
+
+.logo-header {
+
+    width: 5rem;
+
+}
+
+.nav-header {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.pesquisa input[type="text"] {
+
+    flex: 1;
+    padding: 1rem 5rem;
+    border: 1px solid #ccc;
+    border-radius: 2.2rem;
+    outline: none;
+    font-size: 20px;
+
+
+
+}
+
+.pesquisa button {
+
+    padding: 1rem 1rem;
+    color: white;
+    border-radius: 100rem;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.pesquisa button:hover {
+
+    background-color: #97b8cc;
+
+}
+
+.ul-list {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.ul-list a {
+
+    color: white;
+    text-decoration: none;
+    background-color: rgb(4, 52, 134);
+    font-weight: 700;
+    padding: 0.5rem 1.3rem;
+
+}
+
+/* Fim Do Header*/
+
+.section-home {
+
+    padding: 6rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*Fará com que as caixas possam ser quebradas se necessário (quando não houver espaço)*/
+    align-content: center;
+    /*propriedade que será usada para alinhar as caixas quando quebradas*/
+
+}
+
+.div-home {
+
+    width: 30rem;
+    height: 20rem;
+    margin: 10px;
+    min-width: 299px;
+    /*Limitando o tamanho mínimo que a caixa terá (ela não ficará menor que 299px)*/
+
+}
+
+.div-home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.3rem;
+
+}
+
+.botaohome {
+
+    padding: 1.3rem;
+    border-radius: 1.7rem;
+    background-color: #97b8cc;
+    box-shadow: 5px 5px 10px black;
+    display: inline-block;
+    /* Faz o link se comportar como um botão */
+    color: white;
+    /* Texto branco */
+    text-decoration: none;
+    /* Remove sublinhado */
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botaohome:hover {
+
+    background-color: #043484;
+    transition: background-color 0.9s ease;
+}
+
+.section-home {
+
+    background: linear-gradient(180deg, #290a9b6b 8.33%, #09446ccb 100%), url(imagens/nepal-1309205_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    justify-content: start;
+
+}
+
+/*fim da home*/

@@ -18,8 +18,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-
-    z-index: 1000;
+    z-index: 999;
 
 }
 
@@ -158,3 +157,40 @@ header {
 }
 
 /*fim da home*/
+
+span { 
+    color: #478fcc;
+    font-size: 3rem;
+}
+
+.sessao2 {
+
+    background-color: #043484;
+    padding: 9.5rem;
+    
+
+}
+
+.img2 img { 
+
+    width: 35rem;
+    border-radius: 10px;
+}
+
+.div2 p {
+    
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+
+}
+
+.sessao2 { 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+

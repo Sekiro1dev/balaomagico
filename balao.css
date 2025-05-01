@@ -40,35 +40,6 @@ header {
 
 }
 
-.pesquisa input[type="text"] {
-
-    flex: 1;
-    padding: 1rem 5rem;
-    border: 1px solid #ccc;
-    border-radius: 2.2rem;
-    outline: none;
-    font-size: 20px;
-
-
-
-}
-
-.pesquisa button {
-
-    padding: 1rem 1rem;
-    color: white;
-    border-radius: 100rem;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.pesquisa button:hover {
-
-    background-color: #97b8cc;
-
-}
-
 .ul-list {
 
     display: flex;
@@ -194,3 +165,80 @@ span {
     
 }
 
+/*Fim de sessao 2*/
+
+.sessao3 {
+    background-color: #7cb2e4;
+    padding: 9.5rem;
+}
+
+.sessao3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.ps3 {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 1.5rem; 
+}
+
+.imgd3 {
+
+    width: 20rem;
+    border-radius: 10px;
+
+}
+
+.sessao4 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/prague-4794636_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 15rem;
+
+}
+
+.bs3 {
+
+    padding: 1rem;
+    border-radius: 5px;
+    width: 15rem;
+    background-color: #464543;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+
+}
+
+footer {   
+    
+    padding: 2rem 1rem;
+    background-color: #043484;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imgf { 
+
+    width: 5rem;
+
+}
+
+.divfooter2 p {
+
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 1.5rem; 
+
+}

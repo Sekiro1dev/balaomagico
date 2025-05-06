@@ -12,43 +12,41 @@
 
 <body>
 
-    <main>
 
-        <header>
+    <header>
 
-            <div>
+        <div>
 
-                <img src="imagens/hot-air-balloon.png" alt="logo" class="logo-header">
+            <img src="imagens/hot-air-balloon.png" alt="logo" class="logo-header">
 
-            </div>
+        </div>
 
-            <div>
+        <div>
 
-                <nav class="nav-header">
+            <nav class="nav-header">
 
-                    <ul class="ul-list">
+                <ul class="ul-list">
 
-                        <li> <a href="">Status de VOOS</a>
-                        </li>
-                        <li> <a href="">BRL·R$ 0,00</a>
-                        </li>
-                        <li> <a href="">Fazer Login</a>
-                        </li>
+                    <li> <a href="">Status de VOOS</a>
+                    </li>
+                    <li> <a href="">BRL·R$ 0,00</a>
+                    </li>
+                    <li> <a href="">Fazer Login</a>
+                    </li>
 
-                    </ul>
+                </ul>
 
-                </nav>
+            </nav>
 
 
-            </div>
+        </div>
 
-            <button class="hambuerger" id="hambuerger button">
-                <i class="fa-soli fa-bars"></i>
-            </button>
+        <button class="hambuerger" id="hambuerger button">
+            <i class="fa-soli fa-bars"></i>
+        </button>
 
-        </header>
+    </header>
 
-    </main>
 
     <main>
 
@@ -128,23 +126,36 @@
 
         <footer>
 
-            <div>
+            <div class="content">
+                <div class="img-line">
+                    <img src="imagens/balloon.png" alt="logo-footer" class="imgf">
+                    <hr class="line">
+                </div>
 
-                <img src="imagens/balloon.png" alt="logo-footer" class="imgf">
+
+                <div class="sociais">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
 
             </div>
 
             <div class="divfooter2">
-                <p>
-                    © 2025 [Cai Cai Balão Air Lines]. Todos os direitos reservados.
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-youtube"></i>
-                </p>
+                <nav class="nav-footer">
+                    <ul class="ul-footer">
 
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Politicas de privacidade</a></li>
+                        <li><a href="">Nossos Parceiros</a></li>
+                        <li><a href="">LGPD</a></li>
+                        <li><a href="">Seja Membro</a></li>
+
+                    </ul>
+                </nav>
             </div>
 
-       
+
         </footer>
 
 
@@ -161,6 +172,12 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+
+<script>
+    document.querySelector('.hambuerger').addEventListener('click', function() {
+        document.querySelector('.nav-header').classList.toggle('active');
+    });
+</script>
 
 </body>
 

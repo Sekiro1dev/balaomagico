@@ -266,6 +266,42 @@ footer {
 
 }
 
+.img-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.sociais {
+    padding: 0.5rem;
+    display: flex;
+    gap: 10px;
+}
+
+.sociais i {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.sociais i:hover {
+
+    color: black;
+    transition: 0.8s;
+
+}
+
+.line {
+    width: 10rem;
+    /*largura da linha*/
+    margin: 0.8rem;
+    /*espaçamento externo da linha*/
+
+}
+
 
 
 .divfooter2 {}
@@ -278,21 +314,24 @@ footer {
 
 /* ========== RESPONSIVIDADE ========== */
 @media (max-width: 1024px) {
+
     /* Ajuste geral para tablets */
-    .sessao2, .sessao3 {
+    .sessao2,
+    .sessao3 {
         padding: 5rem 2rem;
     }
-    
+
     .img2 img {
         width: 28rem;
     }
-    
+
     .sessao4 {
         padding: 10rem;
     }
 }
 
 @media (max-width: 768px) {
+
     /* Header Mobile */
     .nav-header {
         display: none;
@@ -304,7 +343,7 @@ footer {
         padding: 1rem;
         text-align: center;
     }
-    
+
     .hambuerger {
         display: block;
         background: none;
@@ -312,80 +351,81 @@ footer {
         color: white;
         font-size: 1.5rem;
     }
-    
+
     .ul-list {
         flex-direction: column;
         gap: 15px;
     }
-    
+
     /* Conteúdo principal */
     .section-home {
         padding: 4rem 1.5rem;
     }
-    
+
     .div-home {
         height: auto;
         min-width: 100%;
     }
-    
+
     /* Seções em coluna */
-    .sessao2, .sessao3 {
+    .sessao2,
+    .sessao3 {
         flex-direction: column;
         padding: 3rem 1.5rem;
         gap: 2rem;
     }
-    
-    .img2 img, .imgd3 {
+
+    .img2 img,
+    .imgd3 {
         width: 100%;
         max-width: 35rem;
     }
-    
+
     /* Textos */
-    .div2 p, .ps3 {
+    .div2 p,
+    .ps3 {
         font-size: 1.5rem;
     }
-    
+
     span {
         font-size: 2.2rem;
     }
-    
+
     /* Botão hero */
     .botaohome {
         padding: 1rem;
         font-size: 1rem;
     }
-    
+
     /* Footer */
     footer {
         flex-direction: column;
         gap: 2rem;
         text-align: center;
     }
-    
+
     .ul-footer {
         align-items: center;
     }
 }
 
 @media (max-width: 480px) {
+
     /* Ajustes finos para mobile pequeno */
-    .div2 p, .ps3 {
+    .div2 p,
+    .ps3 {
         font-size: 1.2rem;
     }
-    
+
     span {
         font-size: 1.8rem;
     }
-    
+
     .sessao4 {
         padding: 6rem 1rem;
     }
-    
+
     .bs3 {
         width: 100%;
     }
-}   
-
-
-
-
+}
